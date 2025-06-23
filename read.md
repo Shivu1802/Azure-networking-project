@@ -40,38 +40,37 @@ ________________________________________________________________________________
     * URL filtering enabled for enhanced security.
     * Rules defined to restrict unnecessary inbound/outbound traffic.
 
+_____________________________________________________________________________________
 7. Bastion Host Deployment
-(Image not separately uploaded but explained)
+    * Azure Bastion configured in the Bastion Subnet.
+    * Secure RDP/SSH access without public IP.
 
-Azure Bastion configured in the Bastion Subnet.
-
-Secure RDP/SSH access without public IP.
-
+_____________________________________________________________________________________
 8. Uploading HTML Page
-Static HTML page uploaded to Azure Storage (Web-enabled).
+    * Static HTML page setup
+    * Verified in the browser using public endpoint.
 
-Verified in the browser using public endpoint.
-
+_____________________________________________________________________________________
 9. Overall Network Diagram
 Visual representation of the architecture:
 
-Storage
+* Storage
 
-VM
+* VM
 
-Subnets
+* Subnets
 
-Bastion
+* Bastion
 
-Firewall
+* Firewall
 
+_____________________________________________________________________________________
 10. Final Deployment Verification
-Successful deployment message confirmed.
+    * successful deployment message confirmed.
+    * Static site working.
+    * Firewall, NSG, and Bastion verified.
 
-Static site working.
-
-Firewall, NSG, and Bastion verified.
-
+_____________________________________________________________________________________
 Conclusion:
 Static website was securely hosted on Azure.
 
