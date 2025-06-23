@@ -19,9 +19,9 @@ ________________________________________________________________________________
 _____________________________________________________________________________________
 3. Subnet Configuration
     Created 3 subnets:
-        * Web Subnet – for hosting the static website.
-        * Bastion Subnet – for secure SSH access.
-        * Firewall Subnet – for network security and filtering.
+    * Web Subnet – for hosting the static website.
+    * Bastion Subnet – for secure SSH access.
+    * Firewall Subnet – for network security and filtering.
 
 _____________________________________________________________________________________
 4. Deploying the Virtual Network
