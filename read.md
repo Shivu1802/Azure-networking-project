@@ -1,46 +1,44 @@
 Mini Project: Secure Static Website Hosting on Azure with Subnets, VM, Firewall & Bastion
-Objective:
+
+_____________________________________________________________________________________
+Objective: 
+
 To design and deploy a secure and scalable static website on Microsoft Azure using services like Azure Storage, Virtual Network (VNet), Subnets, Virtual Machines (VM), Firewall, and Bastion Host to control access and enforce security.
 
+_____________________________________________________________________________________
 1. Cost Analysis
-Estimated monthly cost calculated before deployment.
+    * Estimated monthly cost calculated before deployment.
+    * Free tier and student subscription benefits were utilized where applicable.
 
-Free tier and student subscription benefits were utilized where applicable.
-
+_____________________________________________________________________________________
 2. Creating the Virtual Network
-Created a Virtual Network named StudentVNet.
+    * Created a Virtual Network named StudentVNet.
+    * Address space: 10.0.0.0/16 assigned.
+    * Region selected: Central India.
 
-Address space: 10.0.0.0/16 assigned.
-
-Region selected: Central India.
-
+_____________________________________________________________________________________
 3. Subnet Configuration
-Created 3 subnets:
+    Created 3 subnets:
+        * Web Subnet – for hosting the static website.
+        * Bastion Subnet – for secure SSH access.
+        * Firewall Subnet – for network security and filtering.
 
-Web Subnet – for hosting the static website.
-
-Bastion Subnet – for secure SSH access.
-
-Firewall Subnet – for network security and filtering.
-
+_____________________________________________________________________________________
 4. Deploying the Virtual Network
-VNet successfully deployed.
+    * VNet successfully deployed.
+    * Subnets were verified and connected properly.
 
-Subnets were verified and connected properly.
-
+_____________________________________________________________________________________
 5. Creating Virtual Machine
-Linux VM created inside the Web Subnet.
+    * Linux VM created inside the Web Subnet.
+    * Used for website hosting and backend access.
+    * NSG rules were updated to allow web traffic.
 
-Used for website hosting and backend access.
-
-NSG rules were updated to allow web traffic.
-
+_____________________________________________________________________________________
 6. Implementing Firewall Policy
-Azure Firewall configured to allow only specific IPs and ports.
-
-URL filtering enabled for enhanced security.
-
-Rules defined to restrict unnecessary inbound/outbound traffic.
+    * Azure Firewall configured to allow only specific IPs and ports.
+    * URL filtering enabled for enhanced security.
+    * Rules defined to restrict unnecessary inbound/outbound traffic.
 
 7. Bastion Host Deployment
 (Image not separately uploaded but explained)
